@@ -9,58 +9,64 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1 id="itmd">ITMD 441 Lab 5</h1>
-    <div id=form_pretty>
-        <h1>Good Tip Calculator</h1>
-        <form action="/action_page.php">
-            <p>Currency conversion:</p>
-            <p>$1 USD = &euro;0.95 EUR for EUROS</p>
-            <p>$1 USD = &#8360;85 INR for Rupees</p>
-            <div id="f1">
-                <label for="bill_total" id="f1-label">Bill Total $:</label>
-                <input type="text" class="format" id="bill_total" name="bill_total" oninput="f1()">
-                <p id="error"></p>
-            </div>
-
-            <div id="f2">
-                <label for="bill_tax" id="f2-label">Total Bill with Tax (11%)</label>
-                <input type="text" class="format" id="bill_tax" name="bill_tax" disabled>
-            </div>
-
-            <div id="f6">
-                <label for="dropdown" id="f6-label">Select Currency:</label>
-                <select name="dropdown" id="dropdown">
-                    <option value="usd" id="usd">US Dollars ($)</option>
-                    <option value="euro">Euro (&euro;)</option>
-                    <option value="rupee">Indian Rupee (&#8360;)</option>
-                </select>
-            </div>
-
-            <div id="f3">
-                <label for="range" id="f3-label">Tip:</label>
-                <input type="range" class="format" id="range" name="range" min="0" max="100" value="0">
-            </div>
-            
-            <div id="f4">
-                <label for="tip_amount" id="f4-label">Tip Amount $:</label>
-                <input type="text" class="format" id="tip_amount" name="tip_amount" disabled>
-            </div>
-
-            <div id="f5">
-                <label for="total_tt" id="f5-label">Total Bill with Tip and Tax $:</label>
-                <input type="text" class="format" id="total_tt" name="total_tt" disabled>
-            </div>
-
-            <div id="f7">
-                <label for="converted_tip_amount" id="f7-label">Converted Tip Amount:</label>
-                <input type="text" class="format" id="converted_tip_amount" name="converted_tip_amount" disabled>
-            </div>
-
-            <div id="f8">
-                <label for="converted_total_tt" id="f8-label">Converted Total Bill with Tip and Tax:</label>
-                <input type="text" class="format" id="converted_total_tt" name="converted_total_tt" disabled>
-            </div>
-        </form>
+    <div id="purple">
+        <h1 id="itmd">ITMD 441 Lab 5</h1>
+        <div id=form_pretty>
+            <h1>Good Tip Calculator</h1>
+            <form action="/action_page.php">
+                <p>Currency conversion:</p>
+                <p>$1 USD = &euro;0.95 EUR for EUROS</p>
+                <p>$1 USD = &#8360;85 INR for Rupees</p>
+                <div id="f1">
+                    <label for="bill_total" id="f1-label">Bill Total $:</label>
+                    <input type="text" class="format" id="bill_total" name="bill_total" oninput="f1()">
+                    <p id="error"></p>
+                </div>
+    
+                <div id="f2">
+                    <label for="bill_tax" id="f2-label">Total Bill with Tax (11%)</label>
+                    <input type="text" class="format" id="bill_tax" name="bill_tax" disabled>
+                </div>
+    
+                <div id="f6">
+                    <label for="dropdown" id="f6-label">Select Currency:</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="usd" id="usd" selected>US Dollars ($)</option>
+                        <option value="euro">Euro (&euro;)</option>
+                        <option value="rupee">Indian Rupee (&#8360;)</option>
+                    </select>
+                </div>
+    
+                <p id="idk"></p>
+    
+                <div id="f3">
+                    <label for="range" id="f3-label">Tip:</label>
+                    <input type="range" class="format" id="range" name="range" min="0" max="100" value="0">
+                </div>
+                
+                <div id="f4">
+                    <label for="tip_amount" id="f4-label">Tip Amount $:</label>
+                    <input type="text" class="format" id="tip_amount" name="tip_amount" disabled>
+                </div>
+    
+                <div id="f5">
+                    <label for="total_tt" id="f5-label">Total Bill with Tip and Tax $:</label>
+                    <input type="text" class="format" id="total_tt" name="total_tt" disabled>
+                </div>
+    
+                <div id="f7">
+                    <label for="converted_tip_amount" id="f7-label">Converted Tip Amount:</label>
+                    <input type="text" class="format" id="converted_tip_amount" name="converted_tip_amount" disabled>
+                </div>
+    
+                <div id="f8">
+                    <label for="converted_total_tt" id="f8-label">Converted Total Bill with Tip and Tax:</label>
+                    <input type="text" class="format" id="converted_total_tt" name="converted_total_tt" disabled>
+                </div>
+            </form>
+    </div>
+    
+    
     </div>    
 </body>
 </html>
