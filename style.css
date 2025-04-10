@@ -1,0 +1,48 @@
+html{
+    background-color: #f7edffff;
+}
+
+#itmd{
+    text-align: center;
+}
+
+#form_pretty{
+    margin: 50px auto;
+    width: 500px;
+    height: 850px;
+    padding: 40px 40px;
+    background-color: white;
+    border-top: 10px solid #6a5294ff;
+    font-size: 14px;
+    line-height: 1.75;
+    font-weight: 400;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, .2);
+    transition: all .2s ease;
+    border-radius: 10px;
+}
+
+#f1-label, #f2-label, #f3-label, #f4-label, #f5-label, #f6-label, #f7-label, #f8-label{
+    display: block;
+    margin-bottom: 2px;
+}
+
+#f1, #f2, #f3, #f4, #f5, #f6, #f7, #f8{
+    display: block;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.format{
+    width: 492px;
+    font-size: 14px;
+    height: 30px;
+    line-height: 28px;
+}
+
+#error{
+    color: red;
+}
+
+p{
+    color: #6a5294ff;
+}
