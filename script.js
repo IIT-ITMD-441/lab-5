@@ -65,7 +65,7 @@ function calculateTotal(){
   }
 
   document.getElementById("total_tt").value = total_tt.toFixed(2);
-  document.getElementById("tip_amount").value = tip_amount;
+  document.getElementById("tip_amount").value = tip_amount.toFixed(2);
   
 
   if (value === "euro"){
@@ -77,7 +77,7 @@ function calculateTotal(){
   }
 
   document.getElementById("converted_total_tt").value = total_tt.toFixed(2);
-  document.getElementById("converted_tip_amount").value = tip_amount;
+  document.getElementById("converted_tip_amount").value = tip_amount.toFixed(2);
 }
 
 window.addEventListener("load", () => {
